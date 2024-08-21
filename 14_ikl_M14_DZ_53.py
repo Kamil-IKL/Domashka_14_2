@@ -34,7 +34,7 @@ cursor.execute("UPDATE Users SET balance = ? WHERE ID % 2 = 1", (500,))
 
 # 3.создал запрос на удаление каждой третьей строки, начиная с первой
 # ТАК НЕ ПОЛУЧИЛОСЬ, КАК ПРОСЯТ В ЗАДАНИИ
-# cursor.execute("DELETE FROM Users WHERE ID = 1 OR ID % 3 = 0") #  - ТАК НЕ ПОЛУЧИЛОСЬ, КАК ПРОСЯТ В ЗАДАНИИ
+# cursor.execute("DELETE FROM Users WHERE ID = 1 OR ID % 3 = 0") 
 
 # И ТАК НЕ ПОЛУЧИЛОСЬ, КАК ПРОСЯТ В ЗАДАНИИ
 # cursor.execute("DELETE FROM Users WHERE ID = 1") # удаляю сначала первую строку
